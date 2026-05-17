@@ -21,7 +21,7 @@ public class ApiService
 
     // Change this to your machine's local IP when testing on a physical device.
     // For Android emulator, 10.0.2.2 maps to host machine's localhost.
-    private const string BaseUrl = "http://10.0.2.2:5000/api";
+    private const string BaseUrl = "https://zenbudget-api.onrender.com/api";
 
     private ApiService()
     {
