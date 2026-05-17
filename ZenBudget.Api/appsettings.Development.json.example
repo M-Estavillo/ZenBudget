@@ -1,0 +1,10 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=your_postgres_host;Database=your_db;Username=your_user;Password=your_password;SSL Mode=Require;Trust Server Certificate=true"
+  },
+  "Jwt": {
+    "Key": "YOUR_SUPER_SECRET_JWT_KEY_MUST_BE_AT_LEAST_32_CHARACTERS",
+    "Issuer": "ZenBudget.Api",
+    "Audience": "ZenBudget.Android"
+  }
+}

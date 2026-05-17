@@ -1,0 +1,65 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono / Xamarin / MAUI / Android
+# ------------------------------
+# Build results
+[Dd]ebug/
+[Dd]ebugPs/
+[Rr]elease/
+[Rr]eleasePs/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+Generated\ Files/
+
+# NuGet Packages
+[Pp]ackages/
+
+# Backup archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Configuration Secrets
+[Aa]ppsettings.[Dd]evelopment.json
+[Aa]ppsettings.[Pp]roduction.json
+secrets.json
+
+# Visual Studio / Rider / IDEs
+.idea/
+.vs/
+*.userprefs
+*.usertasks
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+.vs/
+.rider/
+.idea/
+*.sln.DotSettings.user
+
+# OS-specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project Prototypes (optional - remove if you want to keep them on GitHub)
+# AndroidBudgetingApp/new_project_prototype/

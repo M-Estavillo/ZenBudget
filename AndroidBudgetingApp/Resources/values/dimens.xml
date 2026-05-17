@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing -->
+    <dimen name="padding_page">24dp</dimen>
+    <dimen name="padding_section">32dp</dimen>
+    <dimen name="padding_card">20dp</dimen>
+    <dimen name="padding_item">16dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+
+    <!-- Corner Radius -->
+    <dimen name="corner_radius">12dp</dimen>
+    <dimen name="corner_radius_sm">8dp</dimen>
+    <dimen name="corner_radius_pill">100dp</dimen>
+
+    <!-- Icon Sizes -->
+    <dimen name="icon_box_size">40dp</dimen>
+    <dimen name="icon_size">20dp</dimen>
+    <dimen name="icon_nav">24dp</dimen>
+    <dimen name="avatar_size_sm">40dp</dimen>
+    <dimen name="avatar_size_lg">96dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_title">28sp</dimen>
+    <dimen name="text_heading">24sp</dimen>
+    <dimen name="text_balance">30sp</dimen>
+    <dimen name="text_body">15sp</dimen>
+    <dimen name="text_button">17sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_caption">12sp</dimen>
+    <dimen name="text_label">10sp</dimen>
+    <dimen name="text_xs">10sp</dimen>
+
+    <!-- Component Heights -->
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="nav_height">80dp</dimen>
+    <dimen name="search_height">48dp</dimen>
+    <dimen name="progress_height">6dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="chart_bar_height">128dp</dimen>
+    <dimen name="ring_chart_size">192dp</dimen>
+    <dimen name="ring_chart_thickness">16dp</dimen>
+</resources>

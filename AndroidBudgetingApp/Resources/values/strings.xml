@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZenBudget</string>
+    <string name="app_text">Hello, Android!</string>
+
+    <!-- Auth -->
+    <string name="login_title_1">Return to </string>
+    <string name="login_title_bold">focus.</string>
+    <string name="login_subtitle">Step back into your financial sanctuary.</string>
+    <string name="signup_title_1">Embrace </string>
+    <string name="signup_title_bold">clarity.</string>
+    <string name="signup_subtitle">Your journey to financial discipline begins here.</string>
+    <string name="hint_email">hello@zenbudget.app</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="hint_password_new">At least 8 characters</string>
+    <string name="hint_full_name">Julian Walters</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="btn_create_account">Create Account</string>
+    <string name="new_to_zen">New to ZenBudget? </string>
+    <string name="already_member">Already a member? </string>
+    <string name="label_email">EMAIL ADDRESS</string>
+    <string name="label_password">PASSWORD</string>
+    <string name="label_full_name">FULL NAME</string>
+
+    <!-- Dashboard -->
+    <string name="current_balance">CURRENT BALANCE</string>
+    <string name="this_week">This Week</string>
+    <string name="spending_profile">Spending Profile</string>
+    <string name="recent">Recent</string>
+    <string name="view_all">View All</string>
+
+    <!-- Transactions -->
+    <string name="transactions_title">Transactions</string>
+    <string name="search_hint">Search transactions&#8230;</string>
+    <string name="today_label">TODAY</string>
+    <string name="yesterday_label">YESTERDAY</string>
+    <string name="filter_all">All</string>
+
+    <!-- Budget -->
+    <string name="budget_title">Budget</string>
+    <string name="of_used"> of ₱%1$s used</string>
+
+    <!-- Analytics -->
+    <string name="analytics_title">Analytics</string>
+    <string name="spending_label">SPENDING</string>
+    <string name="monthly_trend">Monthly Trend</string>
+
+    <!-- Profile -->
+    <string name="currency_label">Currency</string>
+    <string name="appearance_label">Appearance</string>
+    <string name="privacy_label">Privacy &amp; Security</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="php_display">PHP (₱)</string>
+
+    <!-- Dialogs -->
+    <string name="add_expense">Add Expense</string>
+    <string name="add_income">Add Income</string>
+    <string name="add_category">Add Category</string>
+    <string name="description_hint">Description</string>
+    <string name="amount_hint">Amount</string>
+    <string name="category_hint">Category</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="budget_limit_hint">Budget Limit (₱)</string>
+    <string name="category_name_hint">Category Name</string>
+</resources>

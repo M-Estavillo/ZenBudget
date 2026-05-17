@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/zen_bg">
+
+    <TextView
+        android:id="@+id/textDialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_category"
+        android:textSize="20sp"
+        android:textColor="@color/zen_text"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/editCategoryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/category_name_hint"
+        android:textSize="15sp"
+        android:inputType="text"
+        android:background="@null"
+        android:paddingBottom="8dp"
+        android:textColor="@color/zen_text"
+        android:textColorHint="@color/zen_placeholder" />
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/zen_border" android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/editBudgetLimit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/budget_limit_hint"
+        android:textSize="15sp"
+        android:inputType="numberDecimal"
+        android:background="@null"
+        android:paddingBottom="8dp"
+        android:textColor="@color/zen_text"
+        android:textColorHint="@color/zen_placeholder" />
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/zen_border" android:layout_marginBottom="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:textColor="@color/zen_muted"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_button_outlined"
+            android:layout_marginEnd="8dp"
+            android:stateListAnimator="@null" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="@string/save"
+            android:textColor="@color/zen_white"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_button_primary"
+            android:layout_marginStart="8dp"
+            android:stateListAnimator="@null" />
+    </LinearLayout>
+</LinearLayout>

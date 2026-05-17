@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ZenBudget Color Palette (from HTML prototype CSS variables) -->
+    <color name="zen_cobalt">#2E5BFF</color>
+    <color name="zen_cobalt_pressed">#1A47E6</color>
+    <color name="zen_bg">#FFFFFF</color>
+    <color name="zen_text">#1A1A1A</color>
+    <color name="zen_muted">#71717A</color>
+    <color name="zen_border">#EDEDED</color>
+    <color name="zen_surface">#F9F9F9</color>
+    <color name="zen_chart_bg">#F5F5F5</color>
+    <color name="zen_placeholder">#D1D1D1</color>
+    <color name="zen_red">#EF4444</color>
+    <color name="zen_red_bg">#FEF2F2</color>
+    <color name="zen_white">#FFFFFF</color>
+    <color name="zen_transparent">#00000000</color>
+    <color name="zen_status_bar">#FFFFFF</color>
+
+    <!-- Chart legend colors -->
+    <color name="chart_color_1">#2E5BFF</color>
+    <color name="chart_color_2">#E5E5E5</color>
+    <color name="chart_color_3">#D4D4D4</color>
+    <color name="chart_color_4">#B0B0B0</color>
+    <color name="chart_color_5">#8A8A8A</color>
+</resources>
