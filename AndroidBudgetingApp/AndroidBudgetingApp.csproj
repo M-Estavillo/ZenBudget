@@ -9,9 +9,10 @@
         <ApplicationVersion>1</ApplicationVersion>
         <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
         <!--
-          Enables trim analyzers and full trimming during Release mode.
-          To learn more, see: https://learn.microsoft.com/dotnet/core/deploying/trimming/trimming-options#trimming-granularity
+          Enables reflection-based JSON serialization for dynamic HTTP requests and uses partial trimming to satisfy AOT compilation requirements.
         -->
-        <TrimMode>full</TrimMode>
+        <PublishTrimmed>true</PublishTrimmed>
+        <TrimMode>partial</TrimMode>
+        <JsonSerializerIsReflectionDisabled>false</JsonSerializerIsReflectionDisabled>
     </PropertyGroup>
 </Project>
